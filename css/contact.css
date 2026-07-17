@@ -1,0 +1,164 @@
+/* ===============================
+   Global
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+/* ===============================
+   Header
+================================ */
+
+header{
+    background:#ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#334155;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#2563eb;
+}
+
+/* ===============================
+   Hero
+================================ */
+
+.hero{
+    background:linear-gradient(135deg,#eff6ff,#ffffff);
+    padding:80px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    color:#1d4ed8;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#64748b;
+    font-size:18px;
+}
+
+/* ===============================
+   Contact Card
+================================ */
+
+.contact-container{
+    max-width:700px;
+    margin:60px auto;
+    padding:0 20px;
+}
+
+.contact-card{
+    background:#ffffff;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.contact-card h2{
+    color:#2563eb;
+    margin-bottom:30px;
+}
+
+.contact-item{
+    margin-bottom:25px;
+}
+
+.contact-item h3{
+    color:#1e293b;
+    margin-bottom:8px;
+    font-size:18px;
+}
+
+.contact-item p,
+.contact-item a{
+    color:#475569;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.contact-item a:hover{
+    color:#2563eb;
+}
+
+/* ===============================
+   Footer
+================================ */
+
+footer{
+    background:#eff6ff;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:60px;
+}
+
+.footer-links{
+    margin-top:15px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    margin:0 10px;
+    color:#2563eb;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+/* ===============================
+   Responsive
+================================ */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:36px;
+}
+
+.contact-card{
+    padding:30px 20px;
+}
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+}

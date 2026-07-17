@@ -1,0 +1,273 @@
+/* ===============================
+   Global
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f8fafc;
+
+    color:#1e293b;
+
+    line-height:1.7;
+
+}
+
+/* ===============================
+   Header
+================================ */
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    background:#ffffff;
+
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.navbar{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+}
+
+.home-btn{
+
+    text-decoration:none;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.home-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ===============================
+   Hero
+================================ */
+
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #eff6ff,
+        #ffffff
+    );
+
+    padding:80px 20px;
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:48px;
+
+    color:#1d4ed8;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#64748b;
+
+    font-size:17px;
+
+}
+
+/* ===============================
+   Content Card
+================================ */
+
+.container{
+
+    max-width:950px;
+
+    margin:60px auto;
+
+    padding:0 20px;
+
+}
+
+.card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:45px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    color:#2563eb;
+
+    margin-top:35px;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#475569;
+
+    margin-bottom:15px;
+
+}
+
+.card ul{
+
+    margin-left:20px;
+
+    margin-bottom:20px;
+
+}
+
+.card li{
+
+    margin-bottom:10px;
+
+    color:#475569;
+
+}
+
+/* ===============================
+   Footer
+================================ */
+
+footer{
+
+    background:#eff6ff;
+
+    padding:30px 20px;
+
+    text-align:center;
+
+    margin-top:60px;
+
+}
+
+.footer-links{
+
+    margin-top:15px;
+
+}
+
+.footer-links a{
+
+    text-decoration:none;
+
+    margin:0 10px;
+
+    color:#2563eb;
+
+    font-weight:500;
+
+}
+
+.footer-links a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ===============================
+   Responsive
+================================ */
+
+@media(max-width:768px){
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.hero{
+
+    padding:60px 20px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+.card{
+
+    padding:25px;
+
+}
+
+.home-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
