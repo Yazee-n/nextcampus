@@ -2,7 +2,7 @@
 // Google Apps Script URL
 // ===============================
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwguwxj0rrACyvmqA0E1vZsCx8QC7iuO6QEaDDvC40EX7ZmPWKNZ5eUI7fcz5IGYqkpUQ/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwVX9sIbPbPMKpglQpsT3SJvH11Ttvbwl81U9AN7bc4dLdpUVaxYjDf1jKyC1JZLigryA/exec";
 
 
 
@@ -211,6 +211,13 @@ form.addEventListener("submit",(e)=>{
 
 
 
+
+    const gender =
+    document.getElementById("gender").value;
+
+
+
+
     const consent =
     document.getElementById("consent").checked;
 
@@ -278,6 +285,17 @@ form.addEventListener("submit",(e)=>{
 
     }
 
+    //gender
+
+    if(gender === ""){
+
+    alert("Please select gender");
+
+    return;
+
+
+    }
+
 
 
 
@@ -319,6 +337,9 @@ form.addEventListener("submit",(e)=>{
 
 
         email:email,
+
+
+        gender:gender,
 
 
         homeState:
