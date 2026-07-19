@@ -2,7 +2,7 @@
 // Google Apps Script URL
 // ===============================
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwVX9sIbPbPMKpglQpsT3SJvH11Ttvbwl81U9AN7bc4dLdpUVaxYjDf1jKyC1JZLigryA/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwkFUNYS1bKCU84lPGIoaimQKwkJMoYIrFSh-amiX5zygRalW886z58gNMA6D88fygQVw/exec";
 
 
 
