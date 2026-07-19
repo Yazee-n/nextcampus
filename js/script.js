@@ -44,7 +44,7 @@ const states = [
     "Delhi",
     "Jammu and Kashmir",
     "Ladakh",
-    "Puducherry"
+    "Pondicherry"
 
 ];
 
@@ -91,6 +91,7 @@ const courses = [
     "3D Animation",
     "Animation & VFX",
     "Fashion Designing",
+    "Cosmetology",
     "Fashion Technology",
     "Interior Design",
     "Digital Marketing",
